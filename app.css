@@ -1,0 +1,59 @@
+:root {
+    --main-color: white;
+    --main-bg-color:black;
+}
+* {
+    letter-spacing: -0.5px;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Akkurat-Mono';
+}
+#links{
+ text-align: center;
+}
+
+#links :hover{
+    color: #90e0ef;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Akkurat-Mono';
+    color: var(--main-color);
+    margin: 15px;
+}
+h1:hover{
+    color: #dedede;
+    cursor: pointer;
+}
+#container-text{
+    margin: 15px;
+}
+
+#container {
+    text-align: center;
+    
+}
+
+body{
+    background-color: var(--main-bg-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+
+
+
+
+
+
+
+
+
+
